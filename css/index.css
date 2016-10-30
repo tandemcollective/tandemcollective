@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'SofiaProMedium';
+  src: url('SofiaProMedium.eot?#iefix') format('embedded-opentype'),  url('SofiaProMedium.otf')  format('opentype'),
+       url('SofiaProMedium.woff') format('woff'), url('SofiaProMedium.ttf')  format('truetype'), url('SofiaProMedium.svg#SofiaProMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 100%;
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  position: relative;
+  width: 33.3317057291%;
+  height: 100%;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.container-2 {
+  background-color: rgb(39, 40, 40);
+}
+
+.container-3 {
+  background-image: url('../images/tcpokeunfiltered.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: 0.5s ease;         
+  -moz-transition: 0.5s ease;          
+  -o-transition: 0.5s ease;          
+  -transition: 0.5s ease;
+}
+
+.container-3:hover {
+  background-image: url('../images/tcpoke.jpg');
+  -webkit-transition: 0.5s ease;         
+  -moz-transition: 0.5s ease;          
+  -o-transition: 0.5s ease;          
+  -transition: 0.5s ease;
+}
+
+.container-4 {
+  background-image: url('../images/tcalterunfiltered.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: 0.5s ease;         
+  -moz-transition: 0.5s ease;          
+  -o-transition: 0.5s ease;          
+  -transition: 0.5s ease;
+}
+
+.container-4:hover {
+  background-image: url('../images/tcalter.jpg');
+  -webkit-transition: 0.5s ease;         
+  -moz-transition: 0.5s ease;          
+  -o-transition: 0.5s ease;          
+  -transition: 0.5s ease;
+}
+
+.image-1 {
+  z-index: 1;
+  width: 60%;
+  max-width: 192px;
+}
+
+.image-2 {
+  z-index: 3;
+  width: 90%;
+  max-width: 297px;
+}
+
+.image-3 {
+  z-index: 5;
+  width: 50%;
+  max-width: 160px;
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: 'SofiaProMedium';
+  font-style: normal;
+  font-size: inherit;
+  text-transform: inherit;
+  text-decoration: underline;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .container .image {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin: auto;
+  }
+
+  .container .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+  }
+
+  .container .container-4 {
+    margin-left: 0;
+  }
+
+  .text a,
+  .text em {
+    font-style: inherit;
+  }
+}
+
+@media(max-width: 596px) {
+  .container .container {
+    width: 100%;
+    height: 33.33%;
+  }
+
+  .container .image {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin: auto;
+  }
+
+  .container .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .container-3,
+  .container .container-4 {
+    clear: both;
+  }
+
+  .text a {
+    font-size: 1.143em;
+  }
+
+  .image-1 {
+     max-height: 50%;
+  width: auto;
+  }
+
+  .image-2 {
+  max-height: 80%;
+  width: auto;
+  }
+
+  .image-3 {
+  max-height: 75%;
+  width: auto;
+  }
+
+  .text {
+  bottom: 10px;
+  }
+
+}
